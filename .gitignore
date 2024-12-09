@@ -1,0 +1,50 @@
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Local configuration files
+.env
+.mypy_cache/
+.pytest_cache/
+.vscode/
+*.egg-info/
+*.egg-info/entry_points.txt
+*.egg-info/requires.txt
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.whl
+*.tar.gz
+
+# Logs
+logs/
+*.log
+*.err
+
+# Virtual environment
+venv/
+env/
+
+# IDE specific files
+*.idea/
+*.project
+*.pydevproject
+*.settings/
+
+# Test files
+*.pyc
+*.pyo
+__pycache__/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Specific file patterns
+*~
