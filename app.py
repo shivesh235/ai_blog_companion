@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 import google.generativeai as genai
-from apikey import google_gemini_api
+from config import google_gemini_api
 
 genai.configure(api_key=google_gemini_api)
 
@@ -54,4 +54,6 @@ with st.sidebar:
 if submit_button:
 
     st.title('Your blog\'s context is here')
+
+    response = model.generate_content(prompt)
     st.write(response.text)
